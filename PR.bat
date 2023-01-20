@@ -1,0 +1,3 @@
+@ECHO OFF
+
+cl.exe /W0 /D_USRDLL /D_WINDLL /Tp *.cpp  /MT /link /DLL  /SUBSYSTEM:WINDOWS /MACHINE:x64 /OUT:MSVCP140.dll
